@@ -14,12 +14,19 @@ def divide(a, b):
 def power(a, b):
     return a ** b
 
+def modulus(a, b):
+    if b == 0:
+        return "Modulus by zero not allowed"
+    return a % b
+
 print("Simple Calculator")
 print("1. Add")
 print("2. Subtract")
 print("3. Multiply")
 print("4. Divide")
 print("5. Power (a^b)")
+print("6. Modulus")
+
 
 choice = int(input("Enter choice: "))
 a = float(input("Enter first number: "))
@@ -35,5 +42,7 @@ elif choice == 4:
     print("Result:", divide(a, b))
 elif choice == 5:
     print("Result:", power(a, b))
+elif choice == 6:
+    print("Result:",modulus(a,b))
 else:
     print("Invalid choice")
