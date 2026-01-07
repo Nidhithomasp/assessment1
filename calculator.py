@@ -46,3 +46,4 @@ elif choice == 6:
     print("Result:",modulus(a,b))
 else:
     print("Invalid choice")
+print("bye")
