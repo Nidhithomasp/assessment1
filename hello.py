@@ -1,1 +1,1 @@
-print("good daa!!!")
+print("good day!!!")
