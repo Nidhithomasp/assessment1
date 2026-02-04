@@ -1,5 +1,4 @@
-print("bye")
-print("bye")
-print("hello")
-print("hioiutuuiiii")
-
+print("add")
+print("subtract")
+print("multiply")
+print("divide")
